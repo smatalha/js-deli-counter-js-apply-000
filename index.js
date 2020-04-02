@@ -26,3 +26,12 @@ function currentLine(deliLine) {
   return `The line is currently: ${customers.join(', ')}`;
 }
 
+function ticketNumber() {
+  var customer = 0;
+  customer += 1;
+  return `Welcome, your ticket number is ${customer}`;
+}
+
+console.log(ticketNumber());
+console.log(ticketNumber());
+console.log(ticketNumber());
